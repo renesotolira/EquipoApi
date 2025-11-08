@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		35AB90CD2EBEBEEB00CC92CC /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AB90CC2EBEBEEB00CC92CC /* Pokemon.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		35AB90CC2EBEBEEB00CC92CC /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		E42A29562EBC1E29003F5104 /* Api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Api.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		E42A294D2EBC1E29003F5104 = {
 			isa = PBXGroup;
 			children = (
+				35AB90CC2EBEBEEB00CC92CC /* Pokemon.swift */,
 				E42A29582EBC1E29003F5104 /* Api */,
 				E42A29572EBC1E29003F5104 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AB90CD2EBEBEEB00CC92CC /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
